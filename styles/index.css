@@ -1,0 +1,20 @@
+* { background: rgb(67, 251, 196);
+
+background-image: linear-gradient(to right, rgba(67, 251, 196, 1), rgb(39, 164, 135)); }
+* {font-family:Georgia, 'Times New Roman', Times, serif ;
+
+}
+  .bordes  {
+    border-style: solid;
+    font-size: 20px;
+    text-align: center;
+ }
+  #subtitulo {
+    border-style: ;
+    font-size: 25px;
+    text-align: center;
+  }
+  #resaltado {
+    
+    background-color: #12aa72; overflow-y: 50px; ;
+}
