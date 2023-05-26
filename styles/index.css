@@ -39,20 +39,26 @@ background-image: linear-gradient(to right, #43fbc4, rgb(39, 164, 135)); }
     font-weight: 800;
     text-align: center;
  }
-  .subtitulo {
-    border-style: ;
-    font-size: 1.8em;
-    font-weight: bold;
-    font-style: oblique;
-    color:rgba(202, 24, 194, 0.994);
-    text-align: center;
-  }
+ #subtitulo {
+  border-style: ;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: oblique;
+  color:rgba(202, 24, 194, 0.994);
+  text-align: center;
+}
   .resaltado {
     font-size: 1.5em;
     font-weight: lighter;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     background-color: #a716a2; overflow-y: 50px;  
+}
+  #resaltado {
+  font-weight:bolder;
+  font-style:italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  background-color: #2a0bdc; overflow-y: 50px;  
 }
 #container {
 

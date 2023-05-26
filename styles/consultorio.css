@@ -45,10 +45,11 @@
         text-align: center;
       }
       #resaltado {
-        font-weight: lighter;
-        font-style: oblique;
+        font-weight:bolder;
+        font-style:italic;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-        background-color: #a716a2; overflow-y: 50px;  
+        background-color: #2a0bdc; overflow-y: 50px;  
+    } 
     }
     .mi-lista {
       background-origin: padding-box;
