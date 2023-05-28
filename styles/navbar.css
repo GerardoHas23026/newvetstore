@@ -1,0 +1,53 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  ul.navbar li {
+    display: inline-block;
+  }
+
+  ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul.navbar li a:hover {
+    background-color: #111;
+  }
+
+  /* Estilos para el ícono de la imagen */
+  .navbar-brand img {
+    height: 30px; /* Ajusta la altura según tus necesidades */
+  }
+
+  /* Estilos para los breakpoints */
+  @media screen and (max-width: 768px) {
+    ul.navbar {
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    ul.navbar {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    ul.navbar li {
+      display: block;
+      text-align: center;
+    }
+
+    ul.navbar li a {
+      display: inline-block;
+    }
+  }
